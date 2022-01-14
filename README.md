@@ -10,6 +10,6 @@ From parent directory.
 
 2. Run server
 
-    uvicorn app.main: app --reload
+    uvicorn app.main:app --reload
 
-3. Test endpoint `/generate-token` on postman.
+3. Test endpoint `{{base_url}}/generate-token` on postman.
